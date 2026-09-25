@@ -1,41 +1,26 @@
 # Git CLI Professionale
 
-Corso completo di Git da terminale, dalla prima repository al workflow professionale con GitHub.
+Corso completo e progressivo per imparare Git dalla prima repository fino al workflow professionale di team.
 
-**Autore:** Docente Moussa Salisou  
-**Lingua:** Italiano  
-**Livello:** Base → Intermedio → Avanzato
+**Docente:** Moussa Salisou
 
 ## Obiettivi
-Al termine del percorso lo studente saprà creare e amministrare repository, lavorare con staging e commit, creare e integrare branch, collaborare con GitHub, risolvere conflitti, recuperare modifiche, usare stash/tag/rebase/cherry-pick/reflog/bisect e adottare un workflow professionale.
-
-## Metodo didattico
-Ogni comando è trattato con: cos'è, a cosa serve, perché usarlo, quando usarlo, sintassi, esempi, errori comuni, correzioni, esercizi e soluzioni.
+- comprendere working tree, staging area, repository e remote
+- usare i comandi Git dalla CLI
+- lavorare con branch e merge
+- gestire conflitti e recuperare errori
+- collaborare con GitHub
+- applicare workflow professionali
 
 ## Percorso
-1. Fondamenti
-2. Repository e commit
-3. Ispezione della storia
-4. Branch e integrazione
-5. GitHub e remoti
-6. Conflitti
-7. Annullamento e recupero
-8. Stash
-9. Tag e versionamento
-10. Workflow professionale
-11. Git avanzato
-12. .gitignore
-13. GitHub CLI
-14. Progetto finale
+00 Fondamenti · 01 Repository · 02 Storia · 03 Branch · 04 GitHub · 05 Conflitti · 06 Annullare · 07 Stash · 08 Tag/Release · 09 Avanzato · 10 Gitignore · 11 Workflow · 12 GitHub CLI · 13 Esercizi · 14 Progetto finale · 15 Cheatsheet · 16 Glossario · 17 Docente · 18 Laboratori · 19 Quiz
 
-## Regola d'oro
-Prima di un'operazione distruttiva: **capisci cosa stai per cambiare, controlla lo stato e conserva una via di recupero**.
+## Diagrammi
+![Workflow Git](images/git-workflow.svg)
 
-## Prerequisiti
-Terminale di base e un editor di testo. Non è richiesta esperienza precedente con Git.
+![Branch Git](images/git-branches.svg)
 
-## Laboratorio
-Tutti gli esercizi sono pensati per essere eseguiti localmente. Per le attività GitHub usa una repository personale di prova.
+![Tre stati](images/git-three-states.svg)
 
-## Licenza
-Materiale didattico destinato allo studio e alla formazione. Vedi LICENSE.
+## Metodo
+Ogni comando viene affrontato attraverso: cos'è, scopo, motivazione, sintassi, opzioni, esempi, errori comuni, esercizi, soluzioni e buone pratiche.
