@@ -3,14 +3,22 @@
 ## Cos'è
 Visualizza la cronologia dei commit.
 
-## Esempi
-```bash
+## Sintassi
+~~~bash
 git log
 git log --oneline
-git log --oneline --graph --decorate --all
-git log --author="Nome"
-git log --since="1 month ago"
-```
+git log --graph --decorate --oneline --all
+~~~
+
+## Esempio
+La vista grafica è utile per comprendere branch e merge.
+
+## Ricerca
+~~~bash
+git log --author="Moussa"
+git log --grep="login"
+git log -- README.md
+~~~
 
 ## Esercizio
-Visualizza la storia in forma compatta e individua il primo commit.
+Visualizza la storia in formato grafico compatto.

@@ -3,23 +3,28 @@
 ## Cos'è
 Mostra lo stato del working tree e della staging area.
 
-## Perché usarlo
-È il comando di controllo più importante prima e dopo una modifica.
+## Modello mentale
+~~~text
+working tree -> staging area -> commit
+~~~
 
 ## Sintassi
-`git status`
+~~~bash
+git status
+git status --short
+git status --branch
+~~~
 
 ## Esempio
-```bash
+~~~bash
+echo "# Progetto" > README.md
 git status
 git add README.md
 git status
-git commit -m "docs: add README"
-git status
-```
-
-## Errori comuni
-Ignorare file non tracciati oppure confondere "Changes not staged" con "Changes to be committed".
+~~~
 
 ## Esercizio
-Modifica un file e osserva come cambia lo stato prima e dopo `git add`.
+Crea due file, modifica uno e aggiungi l'altro allo staging. Interpreta `git status --short`.
+
+## Buone pratiche
+Esegui `git status` prima di operazioni importanti.

@@ -1,22 +1,24 @@
 # git commit
 
 ## Cos'è
-Registra uno snapshot nella cronologia della repository.
+Registra nello storico il contenuto presente nella staging area.
 
 ## Sintassi
-`git commit -m "messaggio"`
+~~~bash
+git commit -m "messaggio"
+~~~
 
 ## Esempio
-```bash
+~~~bash
 git add README.md
-git commit -m "docs: add project README"
-```
-
-## Buona pratica
-Un commit dovrebbe rappresentare una modifica coerente e avere un messaggio comprensibile.
+git commit -m "docs: aggiorna README"
+~~~
 
 ## Errori comuni
-Commit enormi e messaggi vaghi come "fix" o "changes".
+`nothing to commit` significa che non ci sono modifiche staged.
 
 ## Esercizio
-Crea tre commit piccoli e descrittivi.
+Crea una modifica, fai staging e crea un commit descrittivo.
+
+## Buone pratiche
+Evita messaggi generici come `update` o `fix`.

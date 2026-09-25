@@ -1,27 +1,33 @@
 # git add
 
 ## Cos'è
-Inserisce snapshot delle modifiche nella staging area.
+Aggiunge contenuto alla staging area.
+
+## A cosa serve
+Seleziona ciò che entrerà nel prossimo commit.
 
 ## Sintassi
-```bash
+~~~bash
 git add file.txt
-git add directory/
 git add .
-```
+git add -A
+git add -p
+~~~
 
-## Esempio
-```bash
-git status
+## Esempio professionale
+~~~bash
 git add README.md
-git status
-```
-
-## Punto fondamentale
-`git add` non crea un commit: prepara il contenuto che entrerà nel prossimo commit.
+git diff --staged
+~~~
 
 ## Errore comune
-Usare sempre `git add .` senza controllare cosa si sta mettendo in staging.
+`git add .` può includere modifiche non desiderate. Controlla sempre il diff staged.
 
 ## Esercizio
-Modifica due file, aggiungine solo uno e verifica lo stato.
+Modifica due file e prepara per il commit solo uno.
+
+## Soluzione
+~~~bash
+git add primo-file.txt
+git diff --staged
+~~~

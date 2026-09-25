@@ -1,14 +1,21 @@
 # git diff
 
-Confronta stati del progetto.
+## Cos'è
+Confronta versioni del contenuto.
 
-```bash
+## Sintassi
+~~~bash
 git diff
 git diff --staged
 git diff HEAD
-git diff HEAD~1 HEAD
-```
+git diff branchA..branchB
+~~~
 
-- `git diff`: working tree vs staging.
-- `git diff --staged`: staging vs ultimo commit.
-- `git diff HEAD`: tutte le modifiche rispetto a HEAD.
+## Concetto
+`git diff` confronta working tree e index. `git diff --staged` confronta index e HEAD.
+
+## Esercizio
+Modifica un file, osserva `git diff`, fai staging e osserva `git diff --staged`.
+
+## Buone pratiche
+Controlla il diff prima di ogni commit.

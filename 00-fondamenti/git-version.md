@@ -1,26 +1,18 @@
 # git --version
 
 ## Cos'è
-Mostra la versione installata di Git.
+Mostra la versione di Git installata.
 
 ## A cosa serve
-Permette di verificare che Git sia installato e di conoscere la versione disponibile.
+Verifica che Git sia disponibile e identifica la versione usata dal corso.
 
 ## Sintassi
-`git --version`
-
-## Esempio
-```bash
+~~~bash
 git --version
-```
-
-Output tipico: `git version 2.x.y`.
-
-## Errore comune
-`git: command not found` significa che Git non è installato o non è nel PATH.
+~~~
 
 ## Esercizio
-Verifica la versione di Git e annotala.
+Esegui il comando e annota il risultato.
 
-## Soluzione
-Eseguire `git --version`.
+## Errori comuni
+Se il comando non viene riconosciuto, Git non è installato oppure non è nel PATH.
